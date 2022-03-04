@@ -1,0 +1,39 @@
+
+
+
+
+
+
+.head-line-bar {
+    background-color: blue;
+    padding: 3%;
+}
+
+@font-face {
+    font-family: nothan;
+    src: url(NOTHANDEMOItalic.ttf);
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    margin: 80px 80px 80px 80px;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: ;
+}
+
+.boxes {
+    padding: 20px;
+}
+
+a {
+    background-color: brown;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 8%;
+}
+
+a:hover {
+    tran
+}
