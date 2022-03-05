@@ -30,11 +30,12 @@
     font-style: italic;
     font-family: ;
     align-content: center;
+    padding-bottom: 878px;
 }
 
 .header h1 {
     font-size: 50px;
-    padding: 110px 0 150px; 
+    padding: 275px  150px; 
 }
 
 .boxes {
@@ -44,8 +45,8 @@
 
 .title {
     background-color: brown;
-    padding: 80px 120px;
-    margin: 50px;
+    padding: 160px 300px;
+    margin: 200px;
     border-radius: 8%;
 }
 
