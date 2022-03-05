@@ -11,13 +11,15 @@
     height: 50vh;
     align-items: center;
     align-content: center;
-
+    padding: 80px 80px 80px 80px;
 }
 
 
-.head-line-bar {
+#top-bar {
     background-color: blue;
-    padding: 3%;
+    padding: 1%;
+    position: sticky;
+    top: 5px
 }
 
 .header {
@@ -32,13 +34,12 @@
 
 .header h1 {
     font-size: 50px;
-    padding: 20px 300px;
-    
+    padding: 110px 0 150px; 
 }
 
 .boxes {
     align-content: center;
-    margin-top: 250px;
+    margin-top: 125px;
 }
 
 .title {
@@ -48,14 +49,45 @@
     border-radius: 8%;
 }
 
+.body {
+    background-color: indianred;
+}
+
 .article {
     background-color: cadetblue;
-    padding: 80px;
+    padding: 200px 80px 200px 80px;
+    position: 0;
+}
+
+.article h2 {
+    font-size: 50px;
+    font-style: italic;
+}
+
+.article p {
+    font-size: 28px;
 }
 
 .footer {
     background-color: gold;
     padding: 80px;
     text-align: center;
+}
+
+.contact {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact h2 {
+    font-size: 50px;
+}
+
+.contact-link {
+    width: 15%;
+    margin: 10px 0px;
+    display: flex;
+    margin: 0 auto;
+    padding: 100px 40px;
 }
 
