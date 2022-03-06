@@ -1,103 +1,118 @@
 
+
+
+
+/* this keeps all the elements to the edges of the display */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+/* The Animated Background of the entire webpage */
 #vanta-canvas {
     width: 100vw;
     height: 500vh;    
 }
 
 
-
 .header {
     text-align: center;
-    /* padding: 20px; */
-    /* margin: 80px 80px 80px 80px; */
     font-size: xx-large;
     font-style: italic;
-    font-family: ;
     align-content: center;
-    padding-bottom: 878px;
+    padding-bottom: 800px;
 }
 
+/* the Title of the webpage that you first see */
 .header h1 {
     font-size: 180px;
-    padding: 150px  150px 275px 150px; 
+    padding: 360px  150px 548px 150px; 
 }
 
-.boxes {
+
+/* .boxes {
     align-content: center;
     margin-top: 125px;
-}
+} */
 
+/* the 3 images that are links */
 .title {
     padding: 160px 300px;
-    margin: 200px;
+    margin: 100px;
     border-radius: 8%;
 }
 
+/* the far LEFT link */
 #desk-worker {
     background-image: url(../images/artists-work-desk.jpeg);
     background-size: cover;
 }
 
+/* the MIDDLE link */
 #walking-guy {
     background-image: url(../images/videoblocks-back-view-young-tourist-man-walking-along-dangerous-path-on-top-of-normandy-coast-cliff-to-enjoy-epic-seascape-scenery_srgppoaw4_thumbnail-1080_01.png);
     background-size: cover;
 }
 
+/* the far RIGHT link */
 #personal-info {
     background-image: url(../images/mail.png);
     background-size: cover;
 }
 
-/* .body {
-    background-color: indianred;
-} */
-
+/* the About Me section */
 .article {
-    background-color: cadetblue;
     padding: 200px 80px 200px 80px;
-    position: 0;
-   
 }
 
+/* what gives the about me section the cool blurred background affect */
+article.article {
+    backdrop-filter: blur(30px);
+}
+
+/* the Photo of 'Christian Casillas */
+body article div #christiansphoto {
+    background-image: url(../images/christian.jpeg);
+    background-size: cover;
+    padding: 200px 300px 700px 300px;
+    margin: 250px 700px;
+    border-radius: 5%;
+}
+
+/* the About Me section TITLE */
 .article h2 {
     font-size: 200px;
     font-style: italic;
     text-align: center;
-    
 }
 
+/* the About Me section CONTENT */
 .article p {
     font-size: 80px;
-    color: blue;
 }
 
-.footer {
-    background-color: gold;
-    padding: 80px;
-    text-align: center;
+/* Bottom of page that has the contact information */
+footer {
+    background-color: #5d8aa8;
+    padding: 80px 80px 0px 80px;
+    text-align: center; 
 }
 
-.contact {
-    text-align: center;
-    padding: 20px;
+footer div {
+    backdrop-filter: blur(30px);
 }
 
+/* the words "CONTACT ME" */
 .contact h2 {
     font-size: 50px;
 }
 
+/* links to contact me */
 .contact-link {
-    width: 15%;
+    width: 5%;
     margin: 10px 0px;
-    display: flex;
-    margin: 0 auto;
-    padding: 100px 40px;
+    align-items: center;
+    margin: 130px 0 115px 0;
+    
 }
-
