@@ -8,7 +8,7 @@
 /* The Animated Background of the entire webpage */
 #vanta-canvas {
   width: 100vw;
-  height: 300vh;
+  height: 500vh;
 }
 
 .content {
@@ -21,13 +21,14 @@
   font-size: xx-large;
   font-style: italic;
   align-content: center;
-  padding-bottom: 800px;
+  padding-bottom: 20px;
 }
 
 /* the Title of the webpage that you first see */
 .header h1 {
   font-size: 180px;
-  padding: 360px 150px 548px 150px;
+  /* padding: 360px 150px 548px 150px; */
+  padding: 20px;
 }
 
 .boxes {
@@ -39,38 +40,36 @@
 .containter-1 {
   display: flex;
   justify-content: space-around;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 100px;
   color: white;
 }
 
 /* the far LEFT link */
-#desk-worker {
-  background-image: url(../images/artists-work-desk.jpeg);
-  background-size: cover;
-  padding: 160px 300px;
+#desk-worker img {
   border-radius: 8%;
+  width: 250px;
+  height: 250px;
 }
 
 /* the MIDDLE link */
-#walking-guy {
-  background-image: url(../images/videoblocks-back-view-young-tourist-man-walking-along-dangerous-path-on-top-of-normandy-coast-cliff-to-enjoy-epic-seascape-scenery_srgppoaw4_thumbnail-1080_01.png);
-  background-size: cover;
-  padding: 160px 300px;
+#walking-guy img {
   border-radius: 8%;
+  width: 250px;
+  height: 250px;
 }
 
 /* the far RIGHT link */
-#personal-info {
-  background-image: url(../images/mail.png);
-  background-size: cover;
-  padding: 160px 300px;
+#personal-info img {
   border-radius: 8%;
+  width: 250px;
+  height: 250px;
 }
 
 /* the About Me section */
 .article {
-  padding: 200px 80px 200px 80px;
+  /* padding: 200px 80px 200px 80px; */
+  padding: 20px;
 }
 
 /* what gives the about me section the cool blurred background affect */
@@ -78,16 +77,14 @@ article.article {
   backdrop-filter: blur(30px);
 }
 
-div {
-    align-content: center;
+/* the Photo of 'Christian Casillas */
+body article div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* the Photo of 'Christian Casillas */
 body article div #christiansphoto {
-  background-image: url(../images/christian.jpeg);
-  background-size: cover;
-  padding: 200px 300px 700px 300px;
-  margin: 250px 700px;
   border-radius: 5%;
 }
 
@@ -105,11 +102,28 @@ body article div #christiansphoto {
 
 /* Bottom of page that has the contact information */
 footer {
+  display: flex;
+  flex-direction: column;
   background-color: #5d8aa8;
-  padding: 350px 80px 0px 80px;
-  text-align: center;
+  padding: 110px 180px 90px 180px;
 }
 
+.bottom div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: space-between;
+}
+
+.bottom div a {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: space-between;
+  margin: 80px 50px 50px 50px;
+}
 
 /* the words "CONTACT ME" */
 .contact h2 {
@@ -120,18 +134,4 @@ footer {
 /* links to contact me */
 .contact-link {
   width: 5%;
-  margin: 10px 0px;
-  align-items: center;
-  margin: 130px 0 115px 0;
 }
-
-.row {
-    display: flex;
-  }
-  
-  /* Create three equal columns that sits next to each other */
-  .column {
-    flex: 33.33%;
-    padding: 5px;
-  }
-  
