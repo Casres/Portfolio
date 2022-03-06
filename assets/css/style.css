@@ -36,32 +36,36 @@
 }
 
 /* the 3 images that are links */
-.title {
-  padding: 160px 300px;
-  margin: 100px;
-  border-radius: 8%;
+.containter-1 {
+  display: flex;
+  justify-content: space-around;
   font-family: 'Times New Roman', Times, serif;
   font-size: 100px;
   color: white;
-
 }
 
 /* the far LEFT link */
 #desk-worker {
   background-image: url(../images/artists-work-desk.jpeg);
   background-size: cover;
+  padding: 160px 300px;
+  border-radius: 8%;
 }
 
 /* the MIDDLE link */
 #walking-guy {
   background-image: url(../images/videoblocks-back-view-young-tourist-man-walking-along-dangerous-path-on-top-of-normandy-coast-cliff-to-enjoy-epic-seascape-scenery_srgppoaw4_thumbnail-1080_01.png);
   background-size: cover;
+  padding: 160px 300px;
+  border-radius: 8%;
 }
 
 /* the far RIGHT link */
 #personal-info {
   background-image: url(../images/mail.png);
   background-size: cover;
+  padding: 160px 300px;
+  border-radius: 8%;
 }
 
 /* the About Me section */
@@ -102,17 +106,15 @@ body article div #christiansphoto {
 /* Bottom of page that has the contact information */
 footer {
   background-color: #5d8aa8;
-  padding: 80px 80px 0px 80px;
+  padding: 350px 80px 0px 80px;
   text-align: center;
 }
 
-footer div {
-  backdrop-filter: blur(30px);
-}
 
 /* the words "CONTACT ME" */
 .contact h2 {
   font-size: 50px;
+  margin-top: 0px;
 }
 
 /* links to contact me */
@@ -133,7 +135,3 @@ footer div {
     padding: 5px;
   }
   
-  
-  @media screen and (max-width: 980px) {
-    
-}
