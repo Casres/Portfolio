@@ -74,6 +74,10 @@ article.article {
   backdrop-filter: blur(30px);
 }
 
+div {
+    align-content: center;
+}
+
 /* the Photo of 'Christian Casillas */
 body article div #christiansphoto {
   background-image: url(../images/christian.jpeg);
@@ -119,9 +123,17 @@ footer div {
   margin: 130px 0 115px 0;
 }
 
-@media screen and (max-width: 390px) {
-  */ .column {
-    flex: 100%;
-    max-width: 100%;
+.row {
+    display: flex;
   }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  
+  
+  @media screen and (max-width: 980px) {
+    
 }
