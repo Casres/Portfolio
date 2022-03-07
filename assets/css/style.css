@@ -135,3 +135,11 @@ footer {
 .contact-link {
   width: 5%;
 }
+
+
+@media screen (max-width: 1920px) {
+    body #vanta-canvas {
+        width: 100vw;
+        height: 50vh;
+      }
+}
